@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(95, 94, 99);
+
+}
+header{
+    border: 50 #ff5506;
+    background-image: url('images/istockphoto-1135911226-612x612.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    
+    padding: 4px;
+    
+    height: 600px;
+    text-align: center;
+    
+
+}
+figcaption{
+    text-align: center;
+    font-size: 24px;
+    animation:changer 3s ease-in-out infinite;
+    color:rgb(16, 17, 8);
+}
+header h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    color:#0febe0ce;
+    border:5px;
+    border-color: black;
+    position:relative;
+    top:100px;
+    animation:changer 3s ease-in-out infinite;
+}
+
+.pic1,.pic2,.pic3{
+    background-image: url('images/leaves\ fr\ background.jpeg');
+    background-repeat: repeat-y;
+    background-size:100%;
+    border-radius:solid 15px;
+    margin:10px;
+    
+    padding:5px;
+    width:32%;
+    transition:height 0.5s;
+    transition:width 0.5s;
+}
+.img{
+    width:100%;
+    height:50%;
+    border-radius: 15px;
+}
+.pic1:hover{
+    width:35%;
+    
+    
+}
+.pic2:hover{
+    width:35%;
+
+    
+}
+.pic3:hover{
+    width:35%;
+
+    
+}
+
+
+footer{
+    background-color: rgb(250, 245, 245);
+    margin:5px;
+    padding:5px;
+    display: flex;
+
+}
+.communiquelogo{
+    margin:5px;
+    height:120px;
+    width:200px;
+    transition: width 0.5s;
+    
+
+}
+.communiquelogo:hover{
+    width:250px;
+}
+
+.main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url('images/istockphoto-1351756759-170667a.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.sociallinks{
+    position:relative;
+    left: 800px;
+    display: flex;
+}
+.linko{
+margin:5px;
+}
+@keyframes changer{
+    0%{
+       margin-left: 20px;
+
+
+    }
+    50%{
+        margin-right:20px;
+    }
+    100%{
+        margin-left:20px;
+    }
+}
+.a1,.a2,.a3{
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 2px;
+}
+figcaption{
+    font-size: 30px;
+    font-weight: bolder;
+    color:black;
+}
